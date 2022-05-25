@@ -1,0 +1,1 @@
+javac -d classes src\main\*.java
