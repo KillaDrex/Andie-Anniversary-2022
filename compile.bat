@@ -1,1 +1,1 @@
-javac -d classes src\main\*.java
+javac -p "%JAVA_FX%" --add-modules javafx.controls,javafx.fxml -d classes src\main\*.java

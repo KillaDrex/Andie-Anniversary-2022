@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="550.0" style="-fx-background-color: #6e411e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.OpenBookController">
+   <children>
+      <Label layoutY="188.0" prefHeight="275.0" prefWidth="550.0" text="Our One Year Journey Together" textAlignment="CENTER" textFill="#4a756e" wrapText="true">
+         <font>
+            <Font name="Bookman Old Style" size="50.0" />
+         </font>
+      </Label>
+      <Pane layoutX="502.0" onMouseClicked="#handleMouseClick" prefHeight="650.0" prefWidth="68.0" style="-fx-background-color: rgb(81, 49, 26, 0.2); -fx-background-radius: 1em;" />
+   </children>
+</Pane>

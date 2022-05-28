@@ -1,1 +1,1 @@
-java -cp classes main.App
+java -p "%JAVA_FX%" --add-modules javafx.controls,javafx.fxml -cp "classes;src" main.App
