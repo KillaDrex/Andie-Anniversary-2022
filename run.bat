@@ -1,1 +1,1 @@
-java -p "%JAVA_FX%" --add-modules javafx.controls,javafx.fxml -cp "classes;src" main.App
+"dependencies/java.exe" -p "dependencies/javafx-sdk-18.0.1/lib" --add-modules javafx.controls,javafx.fxml -cp "classes;src" main.App

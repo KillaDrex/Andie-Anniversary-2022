@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="550.0" style="-fx-background-color: #6e411e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.BookController">
+   <children>
+      <Label layoutX="10.0" layoutY="312.0" text="Back" textFill="WHITE" />
+      <Label layoutX="53.0" layoutY="30.0" prefHeight="591.0" prefWidth="444.0" text="     &quot;Ayevie, mahal na mahal kita sobra. Alam kong madami na akong nagawang mali sayo tapos madalas kita pinapahabol dahil sa pagtatampo ko at paminsan insensitive pa ako sa mga problema mo. Pero willing ako i-face lahat ng hindi maganda sakin at ayusin para sayo, para hindi ka masaktan. Konti lang ang ma-offer ko sayo kundi ang puso kong tumitibok para sayo lang. Mahaba pa ang panahon, madami pa tayong mapapagdaanan at may mga times na mararamdaman natin mawawala na tayo sa isa't-isa, pero habang hinahanap mo pa ako, hindi talaga yan mangyayari. Nag promise na ako na forever tayo at ang mga nararamdaman ko nung simula pa lang diba? Hindi ako malakas na lalaki, pero basta kasama ka, madami akong kaya; ipapakita at ibibigay ko sayo ang buong mundo. Happy anniversary, bebe ko. Papakiligin kita lalo sa next anniv natin! I. Love. You.&quot;" textAlignment="JUSTIFY" textFill="#ffcc14" wrapText="true">
+         <font>
+            <Font name="Bookman Old Style" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="590.0" text="- Mahal mong Andre" textFill="#fffb83">
+         <font>
+            <Font name="Baskerville Old Face" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="509.0" layoutY="312.0" text="Next" textFill="WHITE" />
+      <Pane layoutX="-20.0" onMouseClicked="#handleBackwardMouseClick" prefHeight="650.0" prefWidth="68.0" style="-fx-background-color: rgb(81, 49, 26, 0.2); -fx-background-radius: 1em;" />
+      <Pane layoutX="502.0" onMouseClicked="#handleForwardMouseClick" prefHeight="650.0" prefWidth="68.0" style="-fx-background-color: rgb(81, 49, 26, 0.2); -fx-background-radius: 1em;" />
+   </children>
+</Pane>

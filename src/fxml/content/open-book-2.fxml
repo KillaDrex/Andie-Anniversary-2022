@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" style="-fx-background-color: #6e411e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.BookController">
+   <children>
+      <Pane layoutX="500.0" prefHeight="650.0" prefWidth="100.0" style="-fx-background-color: #51311a; -fx-background-radius: 1em;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="500.0" AnchorPane.topAnchor="0.0" />
+      <Pane layoutX="49.0" layoutY="25.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: #CAB19B;">
+         <children>
+            <ImageView fitHeight="336.0" fitWidth="510.0" layoutX="26.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/content/grade%2011/diorama.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="88.0" fitWidth="121.0" layoutX="187.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true" rotate="-160.0">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="88.0" fitWidth="121.0" layoutX="379.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="88.0" fitWidth="121.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" rotate="-140.0">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="36.0" layoutY="374.0" text="PISQ, Qatar">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="429.0" layoutY="374.0" text="2019">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="374.0" prefHeight="252.0" prefWidth="482.0" text="     After a few dead years, we once again became classmates in grade 11. With a stroke of luck, we got assigned to the same group for our diorama project. We barely talked but it made me so happy every time we did. I still remember while we were casting our votes on paper for the dioramas, you made a joke about putting multiple slips of paper with your name on it. Seeing you giggle up close made my ribcage a bouncy castle and my heart was the energetic child." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Garamond" size="20.0" />
+               </font>
+            </Label>
+            <Polygon fill="#b29f8e" layoutX="50.0" layoutY="560.0" onMouseClicked="#handleBackwardMouseClick" opacity="0.26" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-50.0" />
+                  <Double fx:value="40.0" />
+                  <Double fx:value="50.0" />
+                  <Double fx:value="40.0" />
+                  <Double fx:value="-50.0" />
+                  <Double fx:value="-60.0" />
+               </points>
+            </Polygon>
+         </children></Pane>
+      <Pane layoutX="552.0" layoutY="25.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: #CAB19B;">
+         <children>
+            <ImageView fitHeight="348.0" fitWidth="459.0" layoutX="21.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/content/grade%2011/christmas.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="88.0" fitWidth="121.0" layoutX="188.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true" rotate="16.7">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="88.0" fitWidth="121.0" layoutX="188.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true" rotate="16.7">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="21.0" layoutY="347.0" text="PISQ, Qatar">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="304.0" layoutY="347.0" text="December 17, 2019">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="358.0" prefHeight="252.0" prefWidth="482.0" text="     I was really happy when this picture was taken. Iniisip ko nung time na yon kung alam mo ba na ginugusto kita o isip mo malakas lang trip nila Peter sa atin. Sobrang saya ko nung na take yung picture na ito. Actually, the day before nalungkot ako konti dahil, alam mo na mabilis ako mainggit pero kahit nung hindi pa tayo naiingit na din ako noon. Alam ko hindi tama maingit nung hindi pa tayo dati, pero yun kasi ang nangyari. Ito lang talaga naalala ko sa christmas party ng grade 11 natin." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Garamond" size="20.0" />
+               </font>
+            </Label>
+            <Polygon fill="#b29f8e" layoutX="450.0" layoutY="561.0" onMouseClicked="#handleForwardMouseClick" opacity="0.26" rotate="-90.0" stroke="BLACK" strokeType="INSIDE">
+              <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="-50.0" />
+                <Double fx:value="-60.0" />
+              </points>
+            </Polygon>
+         </children></Pane>
+   </children>
+</AnchorPane>

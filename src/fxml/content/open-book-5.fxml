@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" style="-fx-background-color: #6e411e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.BookController">
+   <children>
+      <Pane layoutX="500.0" prefHeight="650.0" prefWidth="100.0" style="-fx-background-color: #51311a; -fx-background-radius: 1em;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="500.0" AnchorPane.topAnchor="0.0" />
+      <Pane layoutX="49.0" layoutY="25.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: #CAB19B;">
+         <children>
+            <Label layoutX="9.0" layoutY="-23.0" prefHeight="252.0" prefWidth="482.0" text="     The day that we had our graduation photo taken was also the day that you finally told me your feelings. I remember glimpses of our talk. On the side of the building, hiding from our peers and teachers, we would look at each other and give what our hearts have to offer. One of the best, if not the best, days of my life. I will never waste the feelings that you gave me on that day. I promise." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Garamond" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="252.0" fitWidth="182.0" layoutX="304.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/content/grade%2012/first-date-2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="281.0" fitWidth="279.0" layoutX="14.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/content/grade%2012/first-date-1.jpg" />
+               </image>
+            </ImageView>
+            <Polygon fill="#b29f8e" layoutX="50.0" layoutY="560.0" onMouseClicked="#handleBackwardMouseClick" opacity="0.26" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-50.0" />
+                  <Double fx:value="40.0" />
+                  <Double fx:value="50.0" />
+                  <Double fx:value="40.0" />
+                  <Double fx:value="-50.0" />
+                  <Double fx:value="-60.0" />
+               </points>
+            </Polygon>
+            <ImageView fitHeight="79.0" fitWidth="132.0" layoutX="329.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true" rotate="20.0">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="79.0" fitWidth="132.0" layoutX="88.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true" rotate="21.0">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="460.0" prefHeight="50.0" prefWidth="191.0" text="Msheireb, Qatar" wrapText="true">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="358.0" layoutY="460.0" prefHeight="50.0" prefWidth="191.0" text="March 6, 2022" wrapText="true">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane layoutX="552.0" layoutY="25.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: #CAB19B;">
+         <children>
+            <Polygon fill="#b29f8e" layoutX="450.0" layoutY="561.0" onMouseClicked="#handleForwardMouseClick" opacity="0.26" rotate="-90.0" stroke="BLACK" strokeType="INSIDE">
+              <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="-50.0" />
+                <Double fx:value="-60.0" />
+              </points>
+            </Polygon>
+            <Label layoutX="9.0" layoutY="-7.0" prefHeight="348.0" prefWidth="482.0" text="     The next time we saw each other as an actual couple would take a couple months, but it was all worth it, with some minor regrets ;-; I rode the bus to get to your house, and the first thing I felt was pure warmth: &quot;this is where my beloved lives, lovely.&quot; We saw each other after months of only just online chatting and video calls from time to time. In retrospect, I should've went for a hug here already. We went around Downtown Msheireb for fun then we went to buy yourself a calculator and went to your home shortly after. I met your little brother and mother, and after a few hours of doing our school works together, I went home. But not before getting a hug from you, which I know was not the best first hug. But it was still our first hug." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Garamond" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="252.0" fitWidth="447.0" layoutX="49.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/always-love-u-sticker.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+   </children>
+</AnchorPane>

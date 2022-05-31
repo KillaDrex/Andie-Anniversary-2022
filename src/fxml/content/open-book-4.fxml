@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" style="-fx-background-color: #6e411e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.BookController">
+   <children>
+      <Pane layoutX="500.0" prefHeight="650.0" prefWidth="100.0" style="-fx-background-color: #51311a; -fx-background-radius: 1em;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="500.0" AnchorPane.topAnchor="0.0" />
+      <Pane layoutX="49.0" layoutY="25.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: #CAB19B;">
+         <children>
+            <Label layoutX="9.0" layoutY="-55.0" prefHeight="252.0" prefWidth="482.0" text="     During our finals, you asked me for help, although I can no longer remember the what subject or topic it was about. All I remember was how happy I was that you needed me. Albeit brief, nevertheless we shared a moment together." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Garamond" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="358.0" fitWidth="353.0" layoutX="104.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/content/grade%2012/gift.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="79.0" fitWidth="132.0" layoutX="46.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true" rotate="-126.9">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="79.0" fitWidth="132.0" layoutX="312.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="79.0" fitWidth="132.0" layoutX="165.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" rotate="-162.6">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="61.0" layoutY="516.0" prefHeight="50.0" prefWidth="191.0" text="PISQ, Qatar" wrapText="true">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="283.0" layoutY="516.0" prefHeight="50.0" prefWidth="191.0" text="May 5, 2021" wrapText="true">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Polygon fill="#b29f8e" layoutX="50.0" layoutY="560.0" onMouseClicked="#handleBackwardMouseClick" opacity="0.26" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-50.0" />
+                  <Double fx:value="40.0" />
+                  <Double fx:value="50.0" />
+                  <Double fx:value="40.0" />
+                  <Double fx:value="-50.0" />
+                  <Double fx:value="-60.0" />
+               </points>
+            </Polygon>
+         </children></Pane>
+      <Pane layoutX="552.0" layoutY="25.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: #CAB19B;">
+         <children>
+            <Label layoutX="369.0" layoutY="551.0" prefHeight="50.0" prefWidth="191.0" text="May 21, 2021" wrapText="true">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" prefHeight="252.0" prefWidth="482.0" text="     I decided that on the last day of our exams that I would finally confess my love to you. And, I decided to do it by making a beaded bracelet for you. I managed to do it but unfortunately my voice was too low and you were not able to hear my confession directly from my mouth but rather through the letters grouped up with the bracelet. Unfortunately, classes were already finished and it would take two weeks for us to see each other face to face again. Truly, one of the longest breaks I have ever experienced." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Garamond" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="307.0" fitWidth="359.0" layoutX="80.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/content/grade%2012/first-couple-photo-1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="79.0" fitWidth="132.0" layoutX="174.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true" rotate="21.0">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="79.0" fitWidth="132.0" layoutX="157.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true" rotate="21.0">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="20.0" layoutY="552.0" prefHeight="50.0" prefWidth="191.0" text="PISQ, Qatar" wrapText="true">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Polygon fill="#b29f8e" layoutX="450.0" layoutY="561.0" onMouseClicked="#handleForwardMouseClick" opacity="0.26" rotate="-90.0" stroke="BLACK" strokeType="INSIDE">
+              <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="-50.0" />
+                <Double fx:value="-60.0" />
+              </points>
+            </Polygon>
+         </children></Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" style="-fx-background-color: #6e411e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.BookController">
+   <children>
+      <Pane layoutX="500.0" prefHeight="650.0" prefWidth="100.0" style="-fx-background-color: #51311a; -fx-background-radius: 1em;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="500.0" AnchorPane.topAnchor="0.0" />
+      <Pane layoutX="49.0" layoutY="25.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: #CAB19B;">
+         <children>
+            <ImageView fitHeight="381.0" fitWidth="394.0" layoutX="59.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/content/grade%208/grade-8.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="69.0" fitWidth="113.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="69.0" fitWidth="113.0" layoutX="365.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="69.0" fitWidth="113.0" layoutX="21.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 45;">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="85.0" layoutX="398.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 45;">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="59.0" layoutY="423.0" text="PISQ, Qatar">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="399.0" layoutY="423.0" text="2016">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="460.0" prefHeight="125.0" prefWidth="458.0" text="     I first fell in love with you back in grade 8, but I couldn't talk to you at all. I would later realize that this plight of mine would carry over for a while.. You were the cutest girl I ever saw back then, now you are the most beautiful woman whose heart I have finally taken." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Garamond" size="20.0" />
+               </font>
+            </Label>
+            <Polygon fill="#b29f8e" layoutX="50.0" layoutY="560.0" onMouseClicked="#handleBackwardMouseClick" opacity="0.26" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-50.0" />
+                  <Double fx:value="40.0" />
+                  <Double fx:value="50.0" />
+                  <Double fx:value="40.0" />
+                  <Double fx:value="-50.0" />
+                  <Double fx:value="-60.0" />
+               </points>
+            </Polygon>
+         </children></Pane>
+      <Pane layoutX="552.0" layoutY="25.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: #CAB19B;">
+         <children>
+            <Label layoutX="21.0" layoutY="14.0" prefHeight="284.0" prefWidth="458.0" text="     It all started with a chain. On one faithful day during recess in class, you saw me playing with a chain and you asked if you could play with it as well. I saw you gleefully play with it, making it fall on your hand top to bottom, as my eyes bear witness to it all. Back then, and still a little bit now, school was a very cold place. So, I believe that little encounter, that conversation where barely any words were spoken, made me feel a warmth that developed into a fire of desire that would lead me wanting you even if years have passed. I could never forget this for it was the moment that I fell in love with you." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="Garamond" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="249.0" fitWidth="374.0" layoutX="126.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/heart-sticker.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="84.0" fitWidth="165.0" layoutX="177.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 20;">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="148.0" layoutX="255.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 45;">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="148.0" layoutX="167.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 0;">
+               <image>
+                  <Image url="@../../assets/clear-tape.png" />
+               </image>
+            </ImageView>
+            <Polygon fill="#b29f8e" layoutX="450.0" layoutY="561.0" onMouseClicked="#handleForwardMouseClick" opacity="0.26" rotate="-90.0" stroke="BLACK" strokeType="INSIDE">
+              <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="-50.0" />
+                <Double fx:value="-60.0" />
+              </points>
+            </Polygon>
+         </children></Pane>
+   </children>
+</AnchorPane>
